@@ -1,10 +1,9 @@
 {
-  "name": "robofriends",
+  "name": "robofriends-pwa-testing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ThongKun.github.io/robofriends-pwa",
+  "homepage": "https://thongkun.github.io/robofriends-pwa-testing",
   "dependencies": {
-    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
@@ -21,5 +20,20 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
