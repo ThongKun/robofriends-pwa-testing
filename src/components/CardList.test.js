@@ -6,7 +6,7 @@ import CardList from './CardList';
 
 expect.addSnapshotSerializer(createSerializer({ mode: 'deep' }));
 
-test('expect to render Card component', () => {
+test('expect to render CardList component', () => {
   const mockRobots = [
     {
       id : 1,

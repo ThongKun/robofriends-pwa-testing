@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`expect to render Card component 1`] = `
+exports[`expect to render CounterButton component 1`] = `
 <button
   color="red"
   id="counter"

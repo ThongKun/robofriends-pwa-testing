@@ -6,7 +6,7 @@ import CounterButton from './CounterButton';
 
 expect.addSnapshotSerializer(createSerializer({ mode: 'deep' }));
 
-test('expect to render Card component', () => {
+test('expect to render CounterButton component', () => {
   const mockColor = 'red';
   expect(shallow(<CounterButton color={mockColor} />)).toMatchSnapshot();
 })
